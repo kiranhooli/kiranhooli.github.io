@@ -61,38 +61,38 @@ xmlhttp=new XMLHttpRequest();
 
 function lighton()
     {
-        xmlhttp.open("GET","/home/pi/wiringpi/lighton.cgi",true);
+        xmlhttp.open("GET","lighton.cgi",true);
         xmlhttp.send();
     }
 function lightoff()
     {
-        xmlhttp.open("GET","/home/pi/wiringpi/lightoff.cgi",true);
+        xmlhttp.open("GET","lightoff.cgi",true);
         xmlhttp.send();
     }
 function forward()
 {
-	xmlhttp.open("GET","/home/pi/wiringpi/forward.cgi",true);
+	xmlhttp.open("GET","forward.cgi",true);
 	xmlhttp.send();
 }
 function stop()
 {
-	xmlhttp.open("GET","/home/pi/wiringpi/stop.cgi",true);
+	xmlhttp.open("GET","stop.cgi",true);
 	xmlhttp.send();
 }
 function left()
 {
 	console.log("go left");
-	xmlhttp.open("GET","/home/pi/wiringpi/left.cgi",true);
+	xmlhttp.open("GET","left.cgi",true);
 	xmlhttp.send();
 }
 function right()
 {
-	xmlhttp.open("GET","/home/pi/wiringpi/right.cgi",true);
+	xmlhttp.open("GET","right.cgi",true);
 	xmlhttp.send();
 }
 function reverse()
 {
-	xmlhttp.open("GET","/home/pi/wiringpi/reverse.cgi",true);
+	xmlhttp.open("GET","reverse.cgi",true);
 	xmlhttp.send();
 }
 
